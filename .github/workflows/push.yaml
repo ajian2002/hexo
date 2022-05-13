@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
           submodules: true
       - name: Use Node.js 18.x
         uses: actions/setup-node@v2
