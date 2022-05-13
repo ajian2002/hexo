@@ -1,0 +1,4 @@
+[submodule "./themes/ayer"]
+	url = git@github.com:ajian2002/ayer.git
+[submodule "./source"]
+	url = git@github.com:ajian2002/blogs.git
