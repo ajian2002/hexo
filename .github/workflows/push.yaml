@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout private tools
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
         with:
           submodules: true
           token: ${{ secrets.PERSONAL_TOKEN }}
