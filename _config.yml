@@ -121,3 +121,10 @@ feed:
   content_limit: 140
   content_limit_delim: " "
   order_by: -date
+
+
+# deploy:
+#   type: git
+#   repo: https://github.com/<username>/<project>
+#   # example, https://github.com/hexojs/hexojs.github.io
+#   branch: gh-pages

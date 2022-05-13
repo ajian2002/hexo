@@ -1,4 +1,6 @@
-[submodule "./themes/ayer"]
-	url = git@github.com:ajian2002/ayer.git
-[submodule "./source"]
-	url = git@github.com:ajian2002/blogs.git
+[submodule "ayer"]
+	path = themes/ayer
+	url = https://github.com/ajian2002/ayer
+[submodule "source"]
+	path = source
+	url = https://github.com/ajian2002/blogs
